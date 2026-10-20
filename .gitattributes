@@ -1,0 +1,7 @@
+# Keep the repository LF-only: this is a Node package whose files are also read
+# by pi's loader on every platform.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.webp binary

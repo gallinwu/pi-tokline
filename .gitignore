@@ -1,0 +1,13 @@
+# dependencies (there are none at runtime; this is for local tooling)
+node_modules/
+
+# editor / OS noise
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# local harness output
+harness/out/
+*.tmp

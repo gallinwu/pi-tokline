@@ -1,0 +1,48 @@
+{
+  "name": "pi-tokline",
+  "version": "1.0.0",
+  "description": "A live usage line under the pi editor: output rate, session tokens, and the provider's cache hit rate.",
+  "type": "module",
+  "license": "MIT",
+  "author": "gallinwu",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gallinwu/pi-tokline.git"
+  },
+  "homepage": "https://github.com/gallinwu/pi-tokline#readme",
+  "bugs": {
+    "url": "https://github.com/gallinwu/pi-tokline/issues"
+  },
+  "keywords": [
+    "pi",
+    "pi-coding-agent",
+    "pi-extension",
+    "tokens-per-second",
+    "cache-hit-rate",
+    "token-usage",
+    "usage-tracker",
+    "statusline",
+    "tui",
+    "observability",
+    "cost-tracking",
+    "developer-tools"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "scripts": {
+    "test": "node --test test/*.test.ts",
+    "harness": "node harness/load.mjs && node harness/real-loader.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "files": [
+    "index.ts",
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
